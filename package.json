@@ -1,11 +1,11 @@
 {
   "name": "X-BOT-MD",
-  "version": "3.2.0",
+  "version": "3.0.0",
   "description": "WhatsApp Helper Bot",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "pm2 start . --attach --name X-BOT-MD",
+    "start": "node index.js",
     "stop": "pm2 stop . --attach --name X-BOT-MD"
   },
   "repository": {
